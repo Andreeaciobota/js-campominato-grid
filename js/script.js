@@ -15,9 +15,15 @@ let numSquares = 0;
 let squareSqrt;
 let bombsCheck;
 
+// Click - Inizio gioco  
+btn.addEventListener("click", playGenerate)
+btnAgain.addEventListener("click", restartFlow);
+
+
 
 function playGenerate(e){
     e.preventDefault()
+    squareGrid.innerHTML= "";
     resultCont.classList.add("CM-display")
     let levelInput = document.querySelector("#level").value;
     switch(levelInput){
