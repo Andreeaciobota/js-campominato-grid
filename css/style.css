@@ -3,11 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .wrapper{
   width: 100%;
   height: 100vh;
-  background-color: #7fffd4;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/64/156/1018/city-under-terror-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
 }
+
 header, footer{
   background-color: white;
   height: 80px;
@@ -15,6 +20,7 @@ header, footer{
 header img{
   width: 60px;
 }
+
 main{
   height: calc(100% - 160px);
   overflow-y: auto;
@@ -26,7 +32,7 @@ main{
   flex-flow: row wrap;
 }
 .square{
-  border: solid 1px black;
+  border: solid 1px rgb(235, 100, 9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,5 +76,5 @@ main{
   display: block !important;
 }
 .btn-click{
-
+  
 }
